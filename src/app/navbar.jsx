@@ -8,6 +8,9 @@ export default function Navbar() {
         </div>
         <div id="header_2">
             <div>
+                asd
+            </div>
+            <div>
                 <Link href="/">Inicio</Link>
             </div>
             <div>
