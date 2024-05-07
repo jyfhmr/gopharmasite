@@ -20,19 +20,19 @@ export default function Navbar({ scroll }) {
       </div>
       <div id="header_2">
         <div>
-          <Link href="/">Inicio</Link>
+          <Link href="/" className="linksDeHeader">Inicio</Link>
         </div>
         <div>
-          <Link href="/about">Sobre Nosotros</Link>
+          <Link href="/about" className="linksDeHeader">Sobre Nosotros</Link>
         </div>
         <div>
-          <Link href="/services">Servicios</Link>
+          <Link href="/services" className="linksDeHeader">Servicios</Link>
         </div>
         <div>
-          <Link href="/movilapp">App Movil</Link>
+          <Link href="/movilapp" className="linksDeHeader">App Movil</Link>
         </div>
         <div>
-          <Link href="/whatsapp">Whatsapp</Link>
+          <Link href="/whatsapp" className="linksDeHeader">Whatsapp</Link>
         </div>
       </div>
     </header>

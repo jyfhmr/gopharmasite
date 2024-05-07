@@ -32,11 +32,24 @@
 #header_2{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
     font-size: 24px;
+    width: 60%;
 }
 
 img{
     width: 150px;
+}
+
+.linksDeHeader{
+    text-decoration: none;
+    color: #7f9e63;
+    transition: all;
+    transition-duration: .3s;
+}
+
+.linksDeHeader:hover{
+    color: #426027;
+    transform: scale(1.1);
 }

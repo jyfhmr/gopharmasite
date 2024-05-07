@@ -13,14 +13,11 @@ export default function RootLayout({ children }) {
   }
 
   useEffect(() => {
-    function handleScrollEvent(e) {
-      handleScrollDown(e);
-    }
-
-    window.addEventListener("scroll", handleScrollEvent);
+ 
+    window.addEventListener("scroll", handleScrollDown);
 
     return () => {
-      window.removeEventListener("scroll", handleScrollEvent);
+      window.removeEventListener("scroll", handleScrollDown);
     };
   }, []);
 
